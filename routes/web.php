@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'ComicsController@index');
 
-Route::get('/{$id}', 'ComicsController@show')->name("guest.show");
+Route::get('/{id}', 'ComicsController@show')->name("guest.show");

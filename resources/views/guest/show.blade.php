@@ -5,11 +5,11 @@
 
 @section("main-content")
     <div class="container-fluid">
-        <section class="row p-3">
-            <div class="col-3">
+        <section class="row p-3 justify-content-center">
+            <div class="col-5">
                 <div class="card">
-                    <div>
-                        <img src="{{ $singleComic->thumb }}" class="card-img-top" alt="{{ $singleComic->title }}">
+                    <div class="comic-img" style="height: 500px">
+                        <img style="height: 100%" src="{{ $singleComic->thumb }}" class="card-img-top" alt="{{ $singleComic->title }}">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{{ $singleComic->title }}</h5>
